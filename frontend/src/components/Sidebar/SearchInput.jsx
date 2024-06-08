@@ -31,9 +31,9 @@ const SearchInput = () => {
       <input 
          value={search}
          onChange={(e) => setSearch(e.target.value)}
-      type="text" placeholder="Type here" className="input input-bordered input-info w-full max-w-xs text-black" />
-      <button type='submit' className='btn btn-circle btn-sky-500 text-black'>
-      <FaSearch className='w-6 h-6 outline-none'/>
+      type="text" placeholder="Type here" className="input input-ghost w-full max-w-xs" />
+      <button type='submit' className='btn glass rounded-full  pt-0 text-white'>
+      <FaSearch className=' outline-none'/>
         </button>
       </form>
     
@@ -41,3 +41,4 @@ const SearchInput = () => {
 }
 
 export default SearchInput
+

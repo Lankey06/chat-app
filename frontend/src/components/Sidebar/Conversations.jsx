@@ -9,7 +9,7 @@ const Conversations = () => {
   
 
   return (
-    <div className='flex flex-col overflow-auto py-2'>
+    <div className='flex flex-col overflow-auto no-scrollbar py-2'>
          
          {conversations.map((conversation,idx)=>(
            <Conversation
